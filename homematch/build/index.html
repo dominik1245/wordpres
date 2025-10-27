@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Як він полює</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="main-nav">
+            <input type="checkbox" id="burger-toggle" class="burger-menu-toggle">
+            <label for="burger-toggle" class="burger-menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="nav-items">
+                <a href="#" class="nav-item">ГОЛОВНА</a>
+                <a href="#about" class="nav-item">ПРО КНИГУ</a>
+                <a href="#reviews" class="nav-item">ВІДГУКИ</a>
+                <a href="#order" class="nav-item">КУПИТИ</a>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">ПРО КНИГУ</h1>
+                <div class="hero-text">
+                    <p class="txt"><img src="vector0.svg" alt="Іконка" class="text-icon"> Він знає анатомію краще, ніж лікар.</p>
+                    <p class="txt"><img src="vector1.svg" alt="Іконка" class="text-icon"> Його інструмент — скальпель. Його сцена — ніч.</p>
+                    <p class="txt"><img src="group0.svg" alt="Іконка" class="text-icon"> Жінки зникають. Поліція — в глухому куті.</p>
+                    <p class="txt"><img src="group1.svg" alt="Іконка" class="text-icon"> Лише одна — вижила. Але він повернувся.</p>
+                </div>                
+                <button class="cta-button">КУПИТИ</button>
+            </div>
+        </section>
+
+        <!-- Hunt Section -->
+        <section id="hunt" class="hunt-section">
+            <h2 class="section-title">ЯК ВІН ПОЛЮЄ</h2>
+            <div class="hunt-grid">
+                <div class="hunt-card">
+                    <div class="hunt-number">1</div>
+                    <p class="hunt-text">   </p>
+                </div>
+                <div class="hunt-card">
+                    <div class="hunt-number">2</div>
+                    <p class="hunt-text">ЗАЛИШАЄ БЕЗ КРОВІ.</p>
+                </div>
+                <div class="hunt-card">
+                    <div class="hunt-number">3</div>
+                    <p class="hunt-text">ЗНИКАЄ. БЕЗ СЛІДУ.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2 class="section-title">КОРОТКО ПРО КНИГУ</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    У Бостоні з’явився серійний убивця, що діє з холодною точністю хірурга. Його жертви — жінки, яких він знеболює, розтинає і залишає помирати. Детектив Томас Мур і Джейн Ріццолі розслідують справу, що зловісно перегукується зі злочинами дворічної давнини — з одним винятком: тоді жертва вижила. І тепер вбивця повернувся по неї…
+                </p>
+                <img src="pexels-shvetsa-4421495-10.png" alt="Book Scene" class="about-image">
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="reviews-section">
+            <h2 class="section-title">ВІДГУКИ</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <img src="image-40.png" alt="Anna" class="review-image">
+                    <h3 class="review-name">ANNA</h3>
+                    <p class="review-text">Ця книга — як розтин: холодна, точна, невідворотна.</p>
+                </div>
+                <div class="review-card">
+                    <img src="image-50.png" alt="Rachel" class="review-image">
+                    <h3 class="review-name">RACHEL</h3>
+                    <p class="review-text">Я закривала очі, але сторінки самі гортались далі.</p>
+                </div>
+                <div class="review-card">
+                    <img src="image-60.png" alt="Susan" class="review-image">
+                    <h3 class="review-name">SUSAN</h3>
+                    <p class="review-text">Напруга така, що хочеться кричати. Але хірург не терпить шуму.</p>
+                </div>
+                <div class="review-card">
+                    <img src="image-70.png" alt="Lydia" class="review-image">
+                    <h3 class="review-name">LYDIA</h3>
+                    <p class="review-text">Це не просто детектив. Це страх, що ховається під шкірою.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Order Section -->
+        <section id="order" class="order-section">
+            <h2 class="section-title">ЗАМОВИТИ</h2>
+            <form class="order-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Введіть ваше ім’я" class="form-input">
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Введіть Ваш номер телефону" class="form-input">
+                </div>
+                <button type="submit" class="submit-button">Купити</button>
+            </form>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <h2 class="newsletter-title">Отримуйте книжкові анонси на пошту</h2>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Введіть свою ел. адрессу" class="newsletter-input">
+                <button type="submit" class="subscribe-button">Підписатись</button>
+            </form>
+            <p class="newsletter-text">
+                Підписуючись на розсилку, я даю згоду на обробку своїх персональних даних відповідно до умов користувача на законних підставах
+            </p>
+            <div class="copyright">2025</div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
